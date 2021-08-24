@@ -56,7 +56,7 @@ body{
 .nav-menus{
     display: flex;
     padding-left: 70px;
-    padding-top: 10px;
+    /* padding-top: 10px; */
 }
 
 .nav-menus li{
@@ -65,7 +65,8 @@ body{
 
 .nav-menus li a{
     text-decoration: none;
-    color:rgb(204, 193, 193)
+    color:rgb(204, 193, 193);
+    font-size: 16px;
 }
 
 .Brand-section
@@ -79,8 +80,8 @@ body{
 }
 
 .left-side-pics .image{
-    height: 100px;
-    width: 70px;
+    height: 120px;
+    width: 90px;
     border: 1px solid #333;
     margin-top: 10px;
     opacity: 0.3;
@@ -95,17 +96,18 @@ body{
 }
 
 .big-image{
-    height: 750px;
-    width: 700px;
-    margin-top: 37px;
+    height: 900px;
+    width: 900px;
+    margin-top: 25px;
 }
 
 .content{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    margin-top:37px;
-    padding-left: 50px
+    justify-content: space-evenly;
+    /* margin-top:27px; */
+    padding-left: 50px;
+    padding-top: 50px;
 }
 
 .star-reviews{
@@ -113,7 +115,7 @@ body{
 }
 
 .star-reviews i{
-    /* background-color: yellow; */
+    color: yellow;
     padding-right: 10px;
     font-size: 18px;
 }
@@ -121,27 +123,38 @@ body{
 .star-reviews p{
     font-size: 18px;
     padding-left: 10px;
+    color:rgb(131, 127, 127);
+    font-weight:700;
      
 }
 
 .text{
     font-size: 25px;
     font-weight: 600;
-    padding-top: 20px;
+    /* padding-top: 20px; */
 }
 
 .price{
     font-size: 16px;
-    font-weight: 600;
-    padding-top: 5px;
+    font-weight: 700;
+    color: rgb(77, 72, 72);
+    padding-bottom: 5px; 
 }
 
 .description{
-  padding-top: 30px;
+  /* padding-top: 30px; */
+  font-size: 18px;
+  font-weight: 600;
+  color: rgb(88, 85, 85);
 }
 
 .patterns{
-  padding-top: 30px;
+  /* padding-top: 30px; */
+}
+
+.pattern-heading{
+    color:rgb(131, 127, 127);
+    font-weight:700;
 }
 
 .pattern-designs{
@@ -154,7 +167,7 @@ body{
     height:60px;
     width: 60px;
     border-radius: 50%;
-    margin-right: 10px;
+    margin-right: 20px;
 }
 
 .pattern1-colors{
@@ -171,12 +184,17 @@ body{
 }
 
 .size-guide{
-    padding-top: 30px;
+    /* padding-top: 30px; */
   }
+
+.size-heading{
+    color:rgb(131, 127, 127);
+    font-weight:700;
+}
   
 .size-measurement{
       display: flex;
-      padding-top: 15px;
+      padding-top: 20px;
   }
   
 .measurement{
@@ -187,25 +205,30 @@ body{
       height:30px;
       width: 70px;
       margin-right: 10px;
-      border: 1px solid #333;
+      border: 4px solid rgb(177, 173, 173);
       text-align: center;
 }
 
 .ch{
       background-color: #333;
+      border:1px solid #333;
       color: #fff;
   }
 
+.inch{
+    font-weight: 600;
+    color:rgb(180, 176, 176);
+}
 .measurement:hover{
     cursor:pointer;
 }
 
 .table{
     /* background-color: black; */
-    margin-top: 15px;
+    margin-top: 10px;
     height: 200px;
     width: 350px;
-    border: 1px solid black;
+    border: 2px solid rgb(207, 202, 202);
 
 }
 .row-heading th{
@@ -220,8 +243,13 @@ body{
 
 
 .size{
-   padding-top: 30px;
+   padding-top: 10px;
   }
+
+.heading{
+    color:rgb(131, 127, 127);
+    font-weight:700;
+}
 
 .size-level{
     display: flex;
@@ -244,13 +272,13 @@ body{
     opacity: 0.3;
 }
 
-.btn{
+.btns{
     padding-top: 30px;
 }
 
 .two-btns{
     display: flex;
-    padding-top: 15px;
+    /* padding-top: 15px; */
 }
 
 .button{
@@ -269,6 +297,14 @@ body{
 .rent-btn{
     background-color: #333;
     color:#fff;
+    font-weight: 600;
+    font-size: 18px;
+    border: 1px solid #333;
+}
+
+.wishlist-btn{
+    font-weight: 600;
+    font-size: 18px;
 }
 
 
