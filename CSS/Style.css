@@ -5,7 +5,7 @@
 }
 
 body{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Poppins', sans-serif;;
 }
 
 .main-container{
@@ -239,9 +239,6 @@ body{
     padding: 12px;
 }
 
-
-
-
 .size{
    padding-top: 10px;
   }
@@ -305,6 +302,214 @@ body{
 .wishlist-btn{
     font-weight: 600;
     font-size: 18px;
+}
+
+
+@media screen and (max-width:425px){
+    /* .main-container{
+        max-width: 425vh;
+    } */
+    .top-nav{
+        justify-content: none;
+        width: 61rem;
+        height: 10rem; 
+        /* background-color: red; */
+    }
+
+   .logo{
+       font-size: 40px;
+    }
+
+   .top-right-btns{
+      display:flex;
+      justify-content: center;
+      /* background-color: yellow; */
+      /* margin-left: 40rem; */
+
+   }
+
+   
+   .my-cart{
+       /* padding: 30px 30px; */
+       font-size: 18px;
+       border: 1px solid #333;
+   }
+
+   .farizpe{
+       margin-left: 30px;
+       font-size: 20px;
+   }
+
+   .nav-menus{
+       width: 40rem;
+   }
+
+   .nav-menus li a{
+       font-size: 25px;
+   }
+
+   .Brand-section{
+       flex-direction: column;
+   }
+
+   .left-side-pics{
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+    width: 230%;
+    /* padding-left: 90px;  */
+   }
+
+   .left-side-pics .image{
+       margin-right: 50px;
+       width: 150px;
+       height: 200px;
+   }
+
+   .large-pic{
+       order: -1;
+       padding: 10px 70px;
+   }
+   .big-image{
+       height: 70rem;
+       width:800px;
+   }
+
+    .content{
+        padding-left:80px;
+        width: 60rem;
+    }
+
+    .star-reviews i{
+        font-size: 40px;
+
+    }
+    
+    .star-reviews p{
+         font-size: 40px;
+    }
+
+    .text{
+       font-size: 50px;
+       padding-top: 20px;
+    }
+
+    .price{
+        padding-top: 5px;
+        font-size: 25px;
+    }
+
+    .description{
+        font-size: 27px;
+        padding: 30px 0px;
+    }
+
+    .patterns{
+        padding-top: 20px;    }
+
+    .pattern-heading{
+        font-size: 30px;
+    }
+
+    .pattern-designs{
+        padding:20px 0px;
+
+    }
+    .design-colors{
+        height: 90px;
+        width: 90px;
+        
+    }
+
+    .size-guide{
+        padding-top: 30px;
+    }
+
+    .size-heading{
+        font-size: 30px;
+    }
+
+    .size-measurement{
+        padding:20px 0px;
+    }
+
+    .measurement{
+        padding:25px 60px;
+        border: 1px solid rgb(177, 173, 173);
+    }
+
+    .ch{
+        font-size: 25px;
+    }
+
+    .inch{
+        font-size: 25px;
+    }
+
+    .table{
+        height:300px;
+        width: 550px;
+    }
+
+    .row-heading th{
+        font-size: 30px;
+        color:rgb(119, 116, 116);
+    }
+
+    .row-values td{
+        font-size: 30px;
+        color:rgb(122, 120, 120);
+        padding-left: 20px;
+    }
+
+    .heading{
+        font-size: 30px;
+        padding-top: 35px;
+    }
+
+    .size-level{
+        padding-top: 20px;
+    }
+    .level{
+        height: 70px;
+        width: 70px;
+    }
+
+    .sub-small{
+        font-size: 25px;
+    }
+    .sub-medium{
+        font-size: 25px;
+    }
+    .sub-large{
+        font-size: 25px;
+    }
+
+    .sub-extra-large{
+        font-size: 25px;
+    }
+
+    .rent-btn{
+        font-size: 20px;
+    }
+
+    .wishlist-btn{
+        font-size: 20px;
+    }
+
+
+    .two-btns{
+        padding-top: 20px;
+        padding-bottom: 25px;
+    }
+
+
+
+
+
+
+   
+
 }
 
 
